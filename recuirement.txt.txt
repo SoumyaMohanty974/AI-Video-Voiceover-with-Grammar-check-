@@ -1,0 +1,28 @@
+# Streamlit and Core Libraries
+streamlit>=1.18.1
+
+# MoviePy and Required Dependencies
+moviepy>=1.0.3
+imageio[ffmpeg]  # Handles video and audio processing
+numpy            # Numerical operations required by MoviePy
+
+# Speech-to-Text Libraries (Optional)
+openai-whisper   # For speech-to-text functionality
+ffmpeg-python    # Python interface for FFmpeg
+
+# Text-to-Speech Libraries (Optional)
+gtts             # Google Text-to-Speech for voice synthesis
+
+# General Data Science and Utility Libraries
+pandas           # Data analysis
+matplotlib       # Plotting
+seaborn          # Advanced plotting
+scikit-learn     # Machine learning
+tqdm             # Progress bars
+
+# Grammar Checking Libraries (Optional)
+language-tool-python  # For grammar checking
+
+# Other Useful Libraries
+Pillow           # Image processing
+requests         # HTTP requests
